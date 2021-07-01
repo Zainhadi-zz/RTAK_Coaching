@@ -1,0 +1,250 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admission</title>
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+<header id="header">
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="left-menu pull-left">
+            <ul class="nav nav-pills">
+                  <li><a data-toggle="modal" data-target="" href="#">Student Status</a></li>
+              <li><a data-toggle="modal" data-target="" href="#">Student Login</a></li>
+              <li><a data-toggle="modal" data-target="" href="#">My Books</a></li>
+              <li><a data-toggle="modal" data-target="" href="#">Parents Portal</a></li>
+            </ul>
+            <div class="modal fade" id="order-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <h4 class="modal-title" id="myModalLabel"></h4>
+                  </div>
+                  <div class="modal-body">
+                    </div>
+                  <div class="modal-footer">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="create-account" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                   
+                    <h4 class="modal-title" id="myModalLabel">Create Account</h4>
+                  </div>
+                  <div class="modal-body">
+                   
+                  </div>
+                  <div class="modal-footer">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="my-account" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                   
+                    <h4 class="modal-title" id="myModalLabel">My Account</h4>
+                  </div>
+                  <div class="modal-body">
+                    <tbody>
+                      <tr id="checkoutPanelNoWarn">
+                        <td><input type="text" name="username" value="" placeholder="Email Address" size="25" class="formtext" style="width:150px;">
+                          <br></td>
+                      </tr>
+                      <tr id="checkoutPanelNoWarn">
+                        <td><input type="password" name="password" value="" placeholder="Password" size="25" class="formtext" style="width:150px;"></td>
+                      </tr>
+                    </tbody>
+                  </div>
+                  <div class="modal-footer">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <h4 class="modal-title" id="myModalLabel"></h4>
+                  </div>
+                  <div class="modal-body">
+                    <section class="container">
+                      <div class="login">
+                        <h1>Login</h1>
+                       
+                          <p>
+                            
+                          </p>
+                          <p>
+                           
+                          </p>
+                       
+                      </div>
+                    </section>
+                  </div>
+                  <div class="modal-footer">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="right-menu pull-right">
+            <ul class="nav nav-pills">
+              <li><a href="#">Campuses</a></li>
+              <li><a href="result.php">Our Results</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="logo"> <img src="images/home/logo/logo.png" width="271" height="75"  alt=""/><h2>RTAK Coaching Center</h2> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="main-menu pull-left">
+          <nav class="cl-effect-21" id="cl-effect-21"> <a onClick="DisplayPage(this.name);" name="home" href="index.html">RTAK Vision</a> <a onClick="DisplayPage(this.name);" name="products" href="Administration.html">Administration</a> <a href="admission.html">Admission</a> <a href="positions.html">Positions</a><a href="gallery.html">Gallery</a> </nav>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="search-bar pull-right">
+            <div class="input-group">
+              <input placeholder="Search here ..." id="txtSearch" type="text" class="form-control">
+              <span class="input-group-btn">
+              <button id="btnSearch" class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section style="margin-top:20px;" class="contact-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+      	<h1 style="text-align: center;">Chairman</h1>
+        <img src="images/home/default-user-image.png" width="400"  height="350" style="border-radius: 50%;margin-left: 70px;" alt=""/>
+      <br>
+      <br>
+      <br>
+        It gives me great pleasure and a sense of pride as I look back in the past when I first laid the foundation of Practical Coaching Centre in a four roomed premises which later on evolved into a prestigious institution and now boasts of two purpose built campuses. In 2007 we diversified our educational portfolio and established Practical Schooling System. My team comprises of some highly competent and experienced individuals including Mr Arsalan Faruqi (Director Practical Centre & Practical Schooling System and Ms Miriam Arsalan (Director PSS Montessori). They both have taken forward my dream of establishing a private pre-primary – O’levels school and turned it into a state of the art educational institute imparting quality education.
+
+At Practical Schooling System, we offer admissions in pre-primary, primary & secondary (O-levels/matric) classes. We are fortunate to have one of the best teachers in town headed by a very competent principal and a team of coordinators. Besides studies, we have Extra and Co-curricular activities taking place within and outside the campus quiet frequently round the year. Our students have excelled in both the Matric and Cambridge board examinations.
+
+I thank and pray to God for His support and blessings and I hold in the highest esteem, all those individuals who supported me and became my strength throughout.
+      </div>
+      <div class="col-sm-6">
+      	<h1 style="text-align: center;">Director</h1>
+        <img src="images/home/default-user-image.png" width="400" height="350" style="border-radius: 50%;margin-left: 70px;" alt=""/>
+      <br><br><br>
+        Leader, trend setter and innovator in the field of education. We have carved our own niche through hard work, dedication and commitment towards providing quality education to our students. Our innovations in the field of coaching have provided us an edge over all other institutes in Karachi. I joined Practical Centre in the year 2004 as Manager Information Technology. After establishing Virtual Private Network connecting our campuses, I formed our first MIS section in a separate facility which now has a 20 strong team of IT professionals. This department manages student’s results, a complete record of a student’s conduct during his/ her stay at Practical Centre, subject Notes, communication with teachers and parents, remote security surveillance of the campuses through online close circuit cameras and monitor teacher’s performance through sophisticated recording software. All this is done under a very competent IT Manager and Administrator. We have a system of evaluating our teachers and students through a computerized system of high powered audio/ video cameras which record the activities in a class room and enables the administration to keep checks on its staff and students. I successfully initiated and completed the development of a customized software application, engaging a team of competent software specialists, exclusively for maintenance of student’s data, text messaging of results and announcements of results to parents through sheer automation and innovation. We have been utilizing audio visual aides (both overhead and multimedia projectors) for the delivery of lectures. There are numerous other projects in the pipeline which we plan to implement in the near future for the betterment of our students and for timely and effective administration-parents communication. We are proud to announce that all our campuses are linked with the MIS block via wireless VPN.
+
+I’m fortunate enough to have the guidance of our chairman Prof. Ejaz Ahmed Faruqi and support of my MIS administrator Mr Naeem, our I.T Manager Mr Muzaffar, Officers Mr Sagheer, Mr Tariq, Mr Yusuf & Mr Shakil and our administrators Dr Fazal Ahmed and Prof. Amanat Siddiqui and our entire teaching and non-teaching staff. Practical Centre is progressing at a steady pace and inshAllah will continue serving the citizens of Karachi in the years to come.
+      </div>
+    </div>
+  </div>
+  <br>
+  <br><br>
+</section>
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="information-links">
+            <h4>News Alerts</h4>
+            <ul>
+              <li><a href="#">The ANNUAL COMPREHENSIVE EXAMINATION of XI & XII Classes in PRACTICAL CENTRE will start from 10th February 2019. OUTSIDER STUDENTS can also apply.</a></li>
+              
+              <li><a href="#">NEW THEORY SESSION STARTING XI CLASS (13th April), IX & X CLASSES (15th April). ADMISSIONS OPEN. 34812547</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="shopping-links">
+            <h4>Criteria</h4>
+            <ul>
+              <li><a href="#">Policies</a></li>
+              <li><a href="#">Chairman</a></li>
+              <li><a href="#">Director</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3" >
+          <div class="social-icons-links">
+            <h4>Follow us on</h4>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="contact-info">
+            <h4>Contact</h4>
+            <span class="address">Plot#315, Main Landhi Road, Karachi</span><br/>
+            <span class="phone">+92 (336) 2134469</span> <a href="#">info@rtakcoa.com</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="copy-right">&copy; Copyright 2014. All right reserved Zain Hadi(BB-5789) & Tooba Nawab(BB-5773)</div></div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
